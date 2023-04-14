@@ -25,7 +25,7 @@
       echo "<br>A raiz de $v1 e ". sqrt($v1);
       echo "<br>O valor de $v2 arredondado e " . round($v2); // ceil floor
       echo "<br>A partde inteira de $v2 e ". intval($v2);
-      echo "<br>O valor de $v1 em moeda e R$". number_format($v1, 2, ",", ".");
+      echo "<br>O valor de $v1 em moeda e R$". number_format($v1, 2, ",", ".d");
     ?>
   </div>
   
